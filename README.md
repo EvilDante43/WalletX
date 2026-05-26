@@ -1,5 +1,11 @@
 # WalletX - MERN Digital Wallet Application
 
+🔗 Live Demo: https://wallet-x-tau.vercel.app
+
+💻 Backend API: https://walletx-nrze.onrender.com
+
+📂 GitHub Repository: https://github.com/EvilDante43/WalletX
+
 WalletX is a full-stack digital wallet application built using the MERN stack. Users can securely create accounts, log in, search other users, transfer money, and view transaction history.
 
 ## Features
