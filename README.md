@@ -1,59 +1,48 @@
 # WalletX - MERN Digital Wallet Application
 
-🔗 Live Demo: https://wallet-x-tau.vercel.app
+A full-stack digital wallet application built with the MERN stack. Users can securely sign up, log in, transfer money, manage balances, and view transaction history.
 
-💻 Backend API: https://walletx-nrze.onrender.com
+## Live Demo
 
-📂 GitHub Repository: https://github.com/EvilDante43/WalletX
+Frontend: https://wallet-x-tau.vercel.app
 
-WalletX is a full-stack digital wallet application built using the MERN stack. Users can securely create accounts, log in, search other users, transfer money, and view transaction history.
+Backend API: https://walletx-nrze.onrender.com
 
 ## Features
 
-- User Authentication (Signup & Signin)
-- JWT-based Authorization
-- Protected Routes
-- Secure Password Hashing with bcrypt
-- Search Users
-- Send Money Between Users
+- JWT Authentication & Protected Routes
+- Secure Password Hashing (bcrypt)
+- User Search
+- Peer-to-Peer Money Transfer
 - Account Balance Management
 - Transaction History
-- MongoDB Transactions for Secure Transfers
-- Responsive User Interface
 - Toast Notifications
-- Loading States
+- Responsive UI
 
 ## Tech Stack
 
-### Frontend
-- React.js
-- React Router DOM
-- Axios
-- Tailwind CSS
-- React Hot Toast
+**Frontend:** React.js, Tailwind CSS, Axios, React Router DOM
+
+**Backend:** Node.js, Express.js, MongoDB Atlas, Mongoose, JWT, bcrypt
+
+## Run Locally
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt
 
-## Project Structure
+```bash
+cd backend
+npm install
+npm start
+```
 
-```text
-WalletX/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── backend/
-│   ├── routes/
-│   ├── db/
-│   ├── middleware/
-│   └── package.json
-│
-└── README.md
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Author
+
+Soumya Shukla
